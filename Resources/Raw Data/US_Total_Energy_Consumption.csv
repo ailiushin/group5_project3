@@ -1,52 +1,52 @@
-Rank,State,"Total Energy Consumed per Capita, million Btu",Note: Rankings are based on the full source data values.
-1,WY,932
-2,LA,922
-3,ND,875
-4,AK,839
-5,IA,517
-6,TX,491
-7,NE,466
-8,WV,461
-9,SD,453
-10,OK,423
-11,MT,417
-12,IN,413
-13,AL,392
-14,KS,386
-15,KY,385
-16,MS,365
-17,AR,362
-18,NM,350
-19,MN,337
-20,TN,318
-21,WI,317
-22,SC,316
-23,ID,315
-24,IL,313
-25,OH,311
-26,DE,304
-27,PA,298
-28,MO,294
-29,MI,289
-30,ME,285
-31,VA,283
-32,GA,279
-33,CO,274
-34,WA,273
-35,UT,267
-36,NC,253
-37,NV,250
-38,OR,244
-39,DC,237
-40,NJ,236
-41,NH,235
-42,MD,223
-43,VT,219
-44,HI,217
-45,MA,213
-46,AZ,213
-47,CT,206
-48,FL,204
-49,NY,198
-50,CA,198
-51,RI,180
+,Rank,States,"Total Energy Consumed per Capita, million Btu",Note: Rankings are based on the full source data values.
+0,1,Wyoming,932,
+1,2,Louisiana,922,
+2,3,North Dakota,875,
+3,4,Alaska,839,
+4,5,Iowa,517,
+5,6,Texas,491,
+6,7,Nebraska,466,
+7,8,West Virginia,461,
+8,9,South Dakota,453,
+9,10,Oklahoma,423,
+10,11,Montana,417,
+11,12,Indiana,413,
+12,13,Alabama,392,
+13,14,Kansas,386,
+14,15,Kentucky,385,
+15,16,Mississippi,365,
+16,17,Arkansas,362,
+17,18,New Mexico,350,
+18,19,Minnesota,337,
+19,20,Tennessee,318,
+20,21,Wisconsin,317,
+21,22,South Carolina,316,
+22,23,Idaho,315,
+23,24,Illinois,313,
+24,25,Ohio,311,
+25,26,Delaware,304,
+26,27,Pennsylvania,298,
+27,28,Missouri,294,
+28,29,Michigan,289,
+29,30,Maine,285,
+30,31,Virginia,283,
+31,32,Georgia,279,
+32,33,Colorado,274,
+33,34,Washington,273,
+34,35,Utah,267,
+35,36,North Carolina,253,
+36,37,Nevada,250,
+37,38,Oregon,244,
+38,39,District of Columbia,237,
+39,40,New Jersey,236,
+40,41,New Hampshire,235,
+41,42,Maryland,223,
+42,43,Vermont,219,
+43,44,Hawaii,217,
+44,45,Massachusetts,213,
+45,46,Arizona,213,
+46,47,Connecticut,206,
+47,48,Florida,204,
+48,49,New York,198,
+49,50,California,198,
+50,51,Rhode Island,180,
