@@ -1,4 +1,4 @@
-states,solar_potential_gwh,wind_potential_gwh,biopower_potential_gwh,geothermal_potential_gwh,hydropower_potential_gwh
+state,solar_potential_gwh,wind_potential_gwh,biopower_potential_gwh,geothermal_potential_gwh,hydropower_potential_gwh
 Alabama,3758163.0,283.0,12726,535489.0,4102
 Alaska,8283142.0,1373433.0,574,15437.0,23675
 Arizona,24556067.0,26036.0,1924,1247476.0,1303
