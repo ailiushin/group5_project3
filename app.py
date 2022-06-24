@@ -12,7 +12,7 @@ from flask import Flask, jsonify, render_template
 #################################################
 # Database Setup
 #################################################
-connection_string = "postgres:post2022@localhost:5432/energy_db"
+connection_string = "postgres:postgres@localhost:5432/energy_db"
 engine = create_engine(f'postgresql://{connection_string}')
 
 # reflect an existing database into a new model
@@ -38,7 +38,9 @@ def welcome():
     """List all available api routes."""
     return render_template('index.html')
 
-
+@app.route("/map")
+def us_map():
+    return render_template('map.html')
 
 
 @app.route("/api/v1.0/renewable_energy")
