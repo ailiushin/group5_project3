@@ -6,7 +6,7 @@ drop table if exists "energy"
 --more columns can be added after dataframe is final
 create table "energy" (
 	"state" varchar primary key,
-	"population" integer,
+	"population" float,
 	"total_energy_consumed_gwh" float,
 	"total_energy_potential_gwh" float,
 	"energy_excess_capacity" float,
