@@ -63,7 +63,7 @@ def renewable_energy():
 
     # Create a dictionary from the row data and append to a list of all_energies
     all_energies = []
-    for State, solar_potential_gwh, wind_potential_gwh, biopower_potential_gwh, geothermal_potential_gwh, hydropower_potential_gwh,total_energy_consumed_gwh, total_energy_potential_gwh, energy_excess_capacity, population in results:
+    for State, solar_potential_gwh, wind_potential_gwh, biopower_potential_gwh, geothermal_potential_gwh, hydropower_potential_gwh, total_energy_potential_gwh, total_energy_consumed_gwh, energy_excess_capacity, population in results:
         energy_dict = {}
         energy_dict["state"] = State
         energy_dict["solar"] = solar_potential_gwh
