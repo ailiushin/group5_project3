@@ -15,21 +15,27 @@
     <body>
         <p>
             Available Routes:<br/>
-            <!-- /api/v1.0/names<br/>
-            /api/v1.0/passengers -->
+            /plots<br/>
+            /map <br>
             /api/v1.0/renewable_energy
-
         </p>
+
+        <!-- some place holder for text -->
 
         <div class="container">
 
+            <h3>  Plots for energy potential and consumption for each state (energy in GWh)</h3>
+
             <div class="well">
-                <h5>State:</h5>
+                <h5> Select State:</h5>
                 <select id="selDataset" onchange="optionChanged(this.value)">
                         
                 </select>
               </div>
             <div id="pie">
+            </div>
+
+            <div id="bar">
             </div>
 
 
