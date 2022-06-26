@@ -193,6 +193,7 @@ function createBar(state) {
 
 function optionChanged(newState) {
     createPie(newState)
+    createBar(newState)
 }
 
 
