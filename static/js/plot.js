@@ -121,6 +121,7 @@ function createPie(state) {
         let layout = {
             height: 400,
             width: 400,
+            title: 'Renewable energy potential',
             margin: {"t": 50, "b": 0, "l": 50, "r": 40},
             showlegend: true
             };
@@ -183,7 +184,7 @@ function createBar(state) {
         let layout = {
             title: "State Potential Energy vs Energy Consumption",
             barmode: "stack",
-            showlegend: true
+            showlegend: false
             };
         Plotly.newPlot("bar", bar_data, layout);
     });
@@ -193,6 +194,7 @@ function createBar(state) {
 
 function optionChanged(newState) {
     createPie(newState)
+    createBar(newState)
 }
 
 
