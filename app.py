@@ -12,7 +12,7 @@ from flask import Flask, jsonify, render_template
 #################################################
 # Database Setup
 #################################################
-connection_string = "postgres:post2022@localhost:5432/energy_db"
+connection_string = "postgres:Murphy006@localhost:5432/energy_db"
 engine = create_engine(f'postgresql://{connection_string}')
 
 # reflect an existing database into a new model
@@ -45,6 +45,10 @@ def us_map():
 @app.route("/plots")
 def plot():
     return render_template('plotly.html')   
+
+@app.route("/chart")
+def chart():
+    return render_template('chart.html') 
 
 
 @app.route("/api/v1.0/renewable_energy")
