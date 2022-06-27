@@ -28,7 +28,7 @@ map.png
 <br>
 Using Leaflet was created an interactive map describing the energy excess capacity per state.
 <br>
-![map](https://user-images.githubusercontent.com/100326736/175853291-9d49db32-7020-4589-9c7a-16c9af68c2d1.png)
+(https://user-images.githubusercontent.com/100326736/175853291-9d49db32-7020-4589-9c7a-16c9af68c2d1.png)
 
 
 
