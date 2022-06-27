@@ -21,9 +21,14 @@ With population and economic growth, as well as greater and associated consumpti
 <br>
 
 >## Visualization
+Front Website
+<br>
+map.png
+
+<br>
 Using Leaflet was created an interactive map describing the energy excess capacity per state.
 <br>
-IMAGE
+![Map](Resources/Images/map.png)
 
 
 <br>
