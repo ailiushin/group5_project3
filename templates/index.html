@@ -1,31 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="icon" type="image/x-icon" href="">
-        <meta charset="UTF-8">
-        <link rel="icon" type="image/x-icon" href="">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Group 5 - Renewable Energy</title>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Renewable Energy Plots</title>
-        <script src="https://d3js.org/d3.v5.min.js"></script>
-        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    </head>
-    <body>
-        <p>
-            Available Routes:<br/>
-            /plots<br/>
-            /map <br>
-            /api/v1.0/renewable_energy
-
-        </p>
-
-        <div id="plot"></div>
-
-
-        <!-- <script src='https://cdn.plot.ly/plotly-2.0.0.min.js'></script> -->
-        <!-- <script src="data/data.json"></script> -->
-        <script src="static/js/plot.js"></script>
-    </body>
-
+    <style type="text/css">
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+      }
+      ul {
+        padding: 0px !important;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        background: #000000;
+      }
+      .menu-principal {
+        width: 100%;
+        height: 60px;
+      }
+      main,
+      .content {
+        margin: 0 auto;
+        width: 980px;
+        position: relative;
+      }
+      .logo {
+        padding: 16px;
+      }
+      .col-100 {
+        width: 100%;
+        position: relative;
+        margin-top: 2em;
+      }
+      .navigation .navbar-brand {
+        color: rgb(0, 0, 0);
+        margin-left: 0px;
+        padding: inherit;
+        font-weight: bold;
+        background-color: rgb(255, 255, 255);
+        font-family: cochin;
+      }
+      .navbar {
+        background-color: rgb(255, 255, 255);
+        font-size: 25px;
+      }
+      .navigation {
+        width: 70%;
+        margin: 0 auto;
+      }
+      .nav-item img {
+        display: block;
+      }
+      .navbar-toggler {
+        display: none;
+      }
+      .slider-principal img {
+        display: block;
+        width: 100%;
+        object-fit: fill;
+      }
+      .navigation {
+        z-index: 999;
+        position: relative;
+        margin-top: -3em;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="menu-principal">
+      <main>
+        <div class="header-1">
+          <div class="logo">
+            <a href="">Group 5</a>
+            <div class="col-100">
+              <div class="slider-principal">
+                <img
+                  src="Resources/Images/Background.png"
+                />
+              </div>
+            </div>
+            <div class="navigation">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" style="background-color: rgb(255,255,255);" href="index.html">Home</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item dropdown">
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="Templates/map.html">Map</a>
+                                  <a class="dropdown-item" href="Templates/plotly.html">Plotly</a>
+                              </div>
+                          <li class="nav-item">
+                              <a class="nav-link" href="https://github.com/ailiushin/group5_project3">REPO</a>
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-5 col-md-12">
+                      <div class="box">
+                          <h3 class="title">VISUALIZATIONS</h3>
+                          <hr>
+                          <div class="container">
+                              <div class="row" style="padding-bottom: 70px;">
+                                  <div class="col-6">
+                                      <div class="title">Energy Excess Capacity</div>
+                                      <a href="Templates/map.html">
+                                      <img class="panel" src="Templates/Images/map.png" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="col-6">
+                                      <div class="title">Charts</div>
+                                      <a href="Templates/plotly.html">
+                                      <img class="panel" src="Templates/Images/chart.png" alt="">
+                                      </a>
+                                  </div>
+                              </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </main>
+    </header>
+  </body>
 </html>
