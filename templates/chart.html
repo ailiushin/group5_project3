@@ -10,6 +10,7 @@
         <title>Renewable Energy Plots</title>
         <script src="https://d3js.org/d3.v5.min.js"></script>
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     </head>
     <body>
@@ -17,6 +18,7 @@
             Available Routes:<br/>
             /plots<br/>
             /map <br>
+            /chart <br/>
             /api/v1.0/renewable_energy
         </p>
 
@@ -24,43 +26,21 @@
 
         <div class="container">
 
-            <h3>  Plots for energy potential and consumption for each state (energy in GWh)</h3>
+            <h3> Radial Bar Chart </h3>
 
             <div class="well">
-                <h5> Select State:</h5>
-                <select id="selDataset" onchange="optionChanged(this.value)">
-                        
-                </select>
-            </div>
-            
-
-              <div class="row">
-                <div class="col-md-6">
-
-                    <div id="pie">
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-
-                    <div id="bar">
-                    </div>
-                </div>
               </div>
-
-            
-
-            
+            <div id="chart">
+            </div>
 
 
         </div>
 
-        <div id="plot"></div>
 
 
         <!-- <script src='https://cdn.plot.ly/plotly-2.0.0.min.js'></script> -->
         <!-- <script src="data/data.json"></script> -->
-        <script src="static/js/plot.js"></script>
+        <script src="static/js/chart.js"></script>
     </body>
 
 </html>
