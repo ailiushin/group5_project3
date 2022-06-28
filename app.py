@@ -36,7 +36,7 @@ app = Flask(__name__)
 @app.route("/")
 def welcome():
     """List all available api routes."""
-    return render_template('index.html')
+    return render_template('index_rtp.html')
 
 @app.route("/map")
 def us_map():
