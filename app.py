@@ -12,7 +12,7 @@ from flask import Flask, jsonify, render_template
 #################################################
 # Database Setup
 #################################################
-connection_string = "postgres:Murphy006@localhost:5432/energy_db"
+connection_string = "postgres:post2022@localhost:5432/energy_db"
 engine = create_engine(f'postgresql://{connection_string}')
 
 # reflect an existing database into a new model
