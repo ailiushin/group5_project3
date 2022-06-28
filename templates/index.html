@@ -1,129 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Group 5 - Renewable Energy</title>
-  </head>
-  <style>
-    body {
-      width: 100%;
-      height: 100%;
-      margin: 0 auto;
-    }
-    ul {
-      padding: 0px !important;
-      list-style-type: none;
-      display: flex;
-      justify-content: space-between;
-      background: #f8f6f6;
-    }
-    .menu-principal {
-      width: 100%;
-      height: 60px;
-    }
-    main,
-    .content {
-      margin: 0 auto;
-      width: 980px;
-      position: relative;
-    }
-    .logo {
-      padding: 16px;
-    }
-    .col-100 {
-      width: 100%;
-      position: relative;
-      margin-top: 2em;
-    }
-    .navigation .navbar-brand {
-      color: rgb(0, 0, 0);
-      margin-left: 0px;
-      padding: inherit;
-      font-weight: bold;
-      background-color: rgb(255, 255, 255);
-      font-family: cochin;
-    }
-    .navbar {
-      background-color: rgb(255, 255, 255);
-      font-size: 25px;
-    }
-    .navigation {
-      width: 70%;
-      margin: 0 auto;
-    }
-    .nav-item img {
-      display: block;
-    }
-    .navbar-toggler {
-      display: none;
-    }
-    .slider-principal img {
-      display: block;
-      width: 100%;
-      object-fit: fill;
-    }
-    .navigation {
-      z-index: 999;
-      position: relative;
-      margin-top: -3em;
-    }
-  </style>
-  <body>
-    <header class="menu-principal">
-      <main>
-        <div class="header-1">
-          <div class="logo">
-            <a href="">Group 5</a>
-            <div class="col-100">
-              <div class="slider-principal">
-                <img
-                  src="https://github.com/ailiushin/group5_project3/blob/main/Resources/Images/Background.png?raw=true"
-                />
-              </div>
-            </div>
-            <div class="navigation">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarNavDropdown"
-                  aria-controls="navbarNavDropdown"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <nav class="navbar-nav ml-auto">
-                    <ul>
-                      <li class="nav-item">
-                        <a class="dropdown-item" href="map.html">
-                          <img src="https://github.com/ailiushin/group5_project3/blob/main/Resources/Images/map.png?raw=true" alt="" />
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="dropdown-item" href="plotly.html">
-                          <img src="https://github.com/ailiushin/group5_project3/blob/main/Resources/Images/chart.png?raw=true" alt="" />
-                        </a>
-                      </li>
+
+<head>
+  <meta charset="UTF-8">
+  <title>US Renewable Energy</title>
+  
+<!--load bootstrap stylesheet-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!--point to css styling sheet-->
+  <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+<body>
+    
+    <!--navbar settings-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-style text-white" href="/" >Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">    
+
                     </li>
                     <li class="nav-item">
-                      <a class="dropdown-item" href="chart.html">
-                        <img src="https://github.com/ailiushin/group5_project3/blob/main/Resources/Images/chart.png?raw=true" alt="" />
-                      </a>
+                        <a class="nav-link" href="/map">US Map</a>
                     </li>
-                  </li>
-       
-                    </ul>
-                  </nav>
-                </div>
-              </nav>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/plots">Plots</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/chart">Chart</a>
+                    </li>
+                </ul>
             </div>
-          </div>
         </div>
-      </main>
-    </header>
-  </body>
-</html>
+    </nav>
+    
+    <!--container settings-->
+    <div class="container content">    
+        <div class="row">
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <h1>US Renewable Energy Project </h1>
+                    <hr>
+                    <div class="thumbnail">
+                        <img class="img-thumbnail float-left" src="../static/Background.png" width="50%">
+                    </div>
+                    <p> As the economy and population grows, so does our need for energy. Without renewable energy such as solar, wind, geothermal, biopower, and hydropower we would not have a future. As we move into the future, our demands for renewable and sustainable energy will only increase. Our objective is to analyze the differences in our current energy consumption and the clean-energy production potential, determine how much more renewable energy production is required within each state, and create visualizations of the data using Leaflet, Plotly, and D3. </p> 
+                </div>
+            </div>
+            <!--visualization settings-->
+            <div class="col-md-4">
+                <div class="col-md-12">
+                    <h1>Visualizations</h1>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3 col-md-5">
+                            <a href="/map"><img src="../static/map.png" width="100%">
+                            </a> 
+                        </div>
+                        <div class="col-3 col-md-5">
+                            <a href="/plots"><img src="../static/Pie_and_bar_chart_Dropdown.PNG" width="100%"></a>
+                        </div>
+                   
+                        <div class="col-3 col-md-5">
+                            <a href="/chart"><img src="../static/Radial Bar Chart.png" width="100%"  alt="cloudiness"></a>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-dark">
+        <div class="footer-signature text-center py-3">Group 5 - US Renewable Energy
+        </div>      
+    </footer>
+</body>
+</html>
