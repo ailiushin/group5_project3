@@ -16,9 +16,10 @@ With population and economic growth, as well as greater and associated consumpti
 
 • United States Census - https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population#cite_note-5
 
-• https://www.kaggle.com/datasets/washimahmed/usa-latlong-for-state-abbreviations
+• Potential Energy Consumption - https://data.world/doe/united-states-renewable-energy
 
-<br>
+• Interactive chart will be built using leaflet-choropleth.
+Interactive Choropleth Map - Leaflet - a JavaScript library for interactive maps (leafletjs.com)
 
 >## Visualization
 Front Website
