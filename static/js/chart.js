@@ -44,7 +44,7 @@ function init() {
     })
   }
         var options = {
-            series: [399809805, 49759763, 488278, 31646047, 258929],
+            series: [399809805, 49759763, 31646047, 488278, 258929],
             chart: {
             height: 390,
             type: "radialBar",
@@ -71,7 +71,7 @@ function init() {
             }
           },
           colors: ['#1ab7ea', '#0084ff', '#39539E', '#0077B5', '#13d8AA'],
-          labels: ["Solar", "Wind", "Hydro", "Biopower", "Geothermal"],
+          labels: ["Solar", "Wind", "Geothermal", "Biopower", "Hydro"],
           legend: {
             show: true,
             floating: true,
