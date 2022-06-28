@@ -35,7 +35,7 @@ Using Leaflet was created an interactive map describing the energy excess capaci
 <br>
 The piechart describe the total renewable energy by type per state
 <br>
-IMAGE
+![chart](https://user-images.githubusercontent.com/100326736/176070203-3e97ba5f-8603-4d0c-9626-b763a1e6ccaa.png)
 
 
 <br>
