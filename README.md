@@ -47,7 +47,7 @@ For visualization, we chose to use the following to create different charts and 
 <br>
 ![Barchart](https://github.com/ailiushin/group5_project3/blob/main/Images/Bar_only.PNG?raw=true)
 <br>
-• Radial chart to show the differences in the amount of different renewable energy by state
+• Radial chart to show the differences in the amount of different renewable energy for US
 ![Radialchart](https://github.com/ailiushin/group5_project3/blob/main/Images/radial_bar_chart.png?raw=true)
 <br>
 <br>
